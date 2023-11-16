@@ -1,0 +1,23 @@
+{
+    "name":"dangphuoctai/shop-thoi-trang",
+    "description": "Xây dựng Website bán hàng - Năm học 2023-2024",
+    "authors": [
+        {
+                    "name": "Hồ Diên Lợi",
+                    "email": "hodienloi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "App\\":"app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }
+}
